@@ -12,8 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['Ishq Di Baajiyan', 'Dil roy jaye', 'Tere Hawale - lofi','shukran allah'];
-const videos = ['shukran allah'];
+const songs = ['KABIR SINGH LOFI','Arjit Singh','Ek duje ke','shukran allah'];
 
 // Keep track of song
 let songIndex = 2;

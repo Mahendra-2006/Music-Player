@@ -14,7 +14,7 @@
 }
 
 .nav{
-  width: 240px;
+  width: 265px;
   height: 94.5%;
   position: fixed;
   top: 20px;
@@ -64,7 +64,8 @@
 a{
   text-decoration: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(57, 53, 53);
+  color: rgb(0, 0, 0);
+  
 }
 ul{
   list-style: none;
@@ -79,10 +80,17 @@ ul li{
   cursor: pointer;
 }
 
+.ulliimg ul li img{
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
 ul li img{
   width: 30px;
   margin-right: 10px;
 }
+
 ul li p{
   white-space: nowrap;
 }
@@ -98,20 +106,20 @@ body {
   margin: 0;
 }
 
-h1{
+/* h1{
   color: #fff;
   position: relative;
   top: 200px;
-  
-}
+} */
 
 .music-container {
-  background-color: #E9C46A;
   border-radius: 8px;
-  box-shadow: 0 20px 20px 0 rgba(0, 0, 0,0.3);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   padding: 20px 30px;
-  position: absolute; /* relative */
+  position: fixed; /* relative */
+  bottom: 0;
   margin: 100px 0;
   z-index: 10;
 }
@@ -139,9 +147,9 @@ h1{
 }
 
 .action-btn {
-  background-color: #E9C46A;
+  background-color: rgba(255, 255, 255, 0.01);
   border: 0;
-  color: #264653;
+  color: #dfdbdf;
   font-size: 20px;
   cursor: pointer;
   padding: 10px;
@@ -149,7 +157,7 @@ h1{
 }
 
 .action-btn.action-btn-big {
-  color: #264653;
+  color: #cdc2d0;
   font-size: 30px;
 }
 
@@ -158,7 +166,7 @@ h1{
 }
 
 .music-info {
-  background-color: #E76F51;
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 8px 8px 0 0;
   position: absolute;
   top: 0;
@@ -190,15 +198,15 @@ h1{
 }
 
 .progress {
-  background-color: #264653;
+  background-color: #000;
   border-radius: 5px;
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
-
 }
 
 /* BACKGROUND-VIDEO */
+
 .background-video{
   position: fixed;
   right: 0;
